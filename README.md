@@ -21,6 +21,7 @@ An automated log analysis tool that detects security threats and patterns in ser
    cd network-log-analyzer
 
 2. **Set up environment**:
+    ```bash
    python -m venv venv
    # Linux/Mac:
    source venv/bin/activate
@@ -28,8 +29,10 @@ An automated log analysis tool that detects security threats and patterns in ser
    venv\Scripts\activate
 
 3. **Install Dependencies**:
+    ```bash
    pip install -r requirements.txt
    python -m spacy download en_core_web_sm
 
 4. **Run the Dashboard**:
+    ```bash
    streamlit run dashboard.py
