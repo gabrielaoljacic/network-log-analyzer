@@ -15,12 +15,12 @@ An automated log analysis tool that detects security threats and patterns in ser
 - **Visualization**: Plotly
 
 ## Setup
-1. **Clone the repository**:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/gabrielaoljacic/network-log-analyzer.git
    cd network-log-analyzer
 
-2. **Set up environment**:
+2. **Set up Environment**:
     ```bash
    python -m venv venv
    # Linux/Mac:
